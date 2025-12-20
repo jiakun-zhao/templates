@@ -1,0 +1,11 @@
+{
+  "name": "templates",
+  "scripts": {
+    "play": "taze latest -r -f -w -a"
+  },
+  "devDependencies": {
+    "@jiakun-zhao/eslint-config": "^4.1.8",
+    "eslint": "^9.39.2",
+    "taze": "^19.9.2"
+  }
+}
