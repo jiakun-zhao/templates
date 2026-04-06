@@ -3,28 +3,17 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
+    "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "~/*": [
-        "./src/*"
-      ]
+      "~/*": ["./src/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2018",
-    "types": [
-      "vite/client"
-    ]
+    "types": ["vite/client", "node"]
   },
-  "exclude": [
-    "dist",
-    "eslint.config.mjs",
-    "node_modules"
-  ]
+  "exclude": ["dist", "eslint.config.mjs", "node_modules"]
 }

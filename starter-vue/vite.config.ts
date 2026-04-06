@@ -1,5 +1,5 @@
-import { URL, fileURLToPath } from 'node:url'
 import vue from '@vitejs/plugin-vue'
+import { URL, fileURLToPath } from 'node:url'
 import unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 

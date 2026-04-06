@@ -1,16 +1,16 @@
 {
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite --host",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^4.1.8",
-    "@types/node": "^25.0.3",
-    "eslint": "^9.39.2",
-    "typescript": "^5.9.3",
-    "vite": "^7.3.0"
+    "@jiakun-zhao/eslint-config": "^5.0.1",
+    "@types/node": "^25.5.2",
+    "eslint": "^10.2.0",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
   }
 }

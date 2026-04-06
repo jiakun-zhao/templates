@@ -1,45 +1,45 @@
 {
   "name": "@jiakun-zhao/pkg-name",
-  "type": "module",
   "version": "0.0.0",
   "description": "",
-  "author": "Jiakun Zhao <hi@zhaojiakun.com>",
-  "license": "MIT",
   "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
+  "bugs": {
+    "url": "https://github.com/jiakun-zhao/pkg-name/issues"
+  },
+  "license": "MIT",
+  "author": "Jiakun Zhao <hi@zhaojiakun.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
   },
-  "bugs": {
-    "url": "https://github.com/jiakun-zhao/pkg-name/issues"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.mts"
-    }
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
   "files": [
     "dist"
   ],
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
   "scripts": {
     "build": "tsdown",
     "dev": "tsx src/index.ts",
     "prepublishOnly": "pnpm build",
-    "release": "bumpp && pnpm publish && pnpm dlx cnpm sync @jiakun-zhao/pkg-name",
+    "release": "bumpp && pnpm publish && pnpx cnpm sync @jiakun-zhao/pkg-name",
     "test": "vitest"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^4.1.8",
-    "@types/node": "^25.0.3",
-    "bumpp": "^10.3.2",
-    "eslint": "^9.39.2",
-    "tsdown": "^0.18.1",
+    "@jiakun-zhao/eslint-config": "^5.0.1",
+    "@types/node": "^25.5.2",
+    "bumpp": "^11.0.1",
+    "eslint": "^10.2.0",
+    "tsdown": "^0.21.7",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.16"
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
   }
 }
