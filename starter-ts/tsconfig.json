@@ -15,5 +15,5 @@
       "~/*": ["./src/*"]
     }
   },
-  "exclude": ["dist", "eslint.config.mjs", "node_modules"]
+  "exclude": ["dist", "node_modules"]
 }

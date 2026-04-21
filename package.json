@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "@jiakun-zhao/eslint-config": "^5.0.1",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "taze": "^19.11.0"
   }
 }
