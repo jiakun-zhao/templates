@@ -28,15 +28,20 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsx src/index.ts",
+    "fmt": "oxfmt",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && pnpm publish && pnpx cnpm sync @jiakun-zhao/pkg-name",
     "test": "vitest"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^5.0.1",
+    "@jiakun-zhao/config": "^0.0.6",
     "@types/node": "^25.6.0",
     "bumpp": "^11.0.1",
-    "eslint": "^10.2.1",
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.61.0",
+    "oxlint-tsgolint": "^0.22.0",
     "tsdown": "^0.21.9",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",

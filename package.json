@@ -1,11 +1,17 @@
 {
   "name": "templates",
+  "type": "module",
   "scripts": {
+    "fmt": "oxfmt",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "play": "taze latest -r -f -w -a"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^5.0.1",
-    "eslint": "^10.2.1",
+    "@jiakun-zhao/config": "^0.0.6",
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.61.0",
+    "oxlint-tsgolint": "^0.22.0",
     "taze": "^19.11.0"
   }
 }

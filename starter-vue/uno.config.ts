@@ -5,6 +5,9 @@ export default defineConfig<PresetWind3Theme>({
   presets: [
     presetWind3({ dark: 'media' }),
     presetAttributify(),
-    presetIcons({ scale: 1.2, extraProperties: { 'display': 'inline-block', 'vertical-align': 'bottom' } }),
+    presetIcons({
+      scale: 1.2,
+      extraProperties: { display: 'inline-block', 'vertical-align': 'bottom' },
+    }),
   ],
 })
