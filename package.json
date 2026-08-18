@@ -8,10 +8,10 @@
     "play": "taze latest -r -f -w -a"
   },
   "devDependencies": {
-    "@jiakun-zhao/config": "^0.0.6",
-    "oxfmt": "^0.46.0",
-    "oxlint": "^1.61.0",
-    "oxlint-tsgolint": "^0.22.0",
-    "taze": "^19.11.0"
+    "@jiakun-zhao/config": "^0.0.12",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "taze": "^21.1.0"
   }
 }
